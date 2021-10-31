@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e05137-6ddb-4e79-b522-7b3488ca8e6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/jpb-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/controller/TaskController.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/Task.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/TaskRepository.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/todo-list.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ensolvers.exercise.todolist.TodoListApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.ensolvers.exercise.todolist.TodoListApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/todo-list.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/todo-list-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/controller/TaskController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/controller/TaskController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/Task.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -14,3 +14,5 @@
 - Setup a new postgresql server "todo-list"
 - Execute command `bash init.sh` from main directory
 - In another terminal window execute `bash init-react.sh`
+
+- Application is gonna open in a browser window, or you can manually do that on the address `http://localhost:3000`

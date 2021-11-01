@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b8e05137-6ddb-4e79-b522-7b3488ca8e6f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-todo-list/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-todo-list/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-todo-list/src/services/tasksService.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-todo-list/src/services/tasksService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/controller/TaskController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/controller/TaskController.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/Task.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/Task.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/TaskRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/ensolvers/exercise/todolist/entities/TodoRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/migration/V1__.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db/migration/V1__.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,7 @@
     </option>
   </component>
   <component name="ProjectId" id="20EgbvR17mHO1G8UA8OSzVqxqUK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="settings.editor.selected.configurable" value="jpb.dbDrivers" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Kotlin.TodoListApplicationKt">
     <configuration name="TodoListApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -114,6 +118,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/react-todo-list" />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

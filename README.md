@@ -11,5 +11,5 @@
 - NPM 6.14.4
 
 **HOW TO RUN**
-- Execute command `bash init.sh´ from main directory
+- Execute command `bash init.sh` from main directory
 - In another terminal window execute `init-react.sh`

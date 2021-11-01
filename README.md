@@ -16,3 +16,9 @@
 - In another terminal window execute `bash init-react.sh`
 
 - Application is gonna open in a browser window, or you can manually do that on the address `http://localhost:3000`
+
+**How it looks like**
+
+
+![image](https://user-images.githubusercontent.com/26483248/139617528-eda30cad-50c4-4447-8dc5-70704d80e98c.png)
+

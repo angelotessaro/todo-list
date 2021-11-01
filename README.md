@@ -9,3 +9,7 @@
 - PostgreSQL 14.0
 - Nodejs 10.19.0
 - NPM 6.14.4
+
+**HOW TO RUN**
+- Execute command `bash init.sh´ from main directory
+- In another terminal window execute `init-react.sh`

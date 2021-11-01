@@ -10,8 +10,8 @@ const Todo = ({todo, onTodoRemoval, onTodoToggle}) => {
                 <Tooltip 
                     title={todo.completed ? "Mark as not completed" : "Mark as completed"}>
                     <Switch
-                        checkedChildren={<CheckOutlined />}
-                        unCheckedChildren={<CloseOutlined />}
+                        checkedChildren={<CheckOutlined/>}
+                        unCheckedChildren={<CloseOutlined/>}
                         onChange={() => onTodoToggle(todo)}
                         defaultChecked={todo.completed}
                     />

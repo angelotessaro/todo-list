@@ -1,48 +1,43 @@
 const baseUrl = `${process.env.REACT_APP_API_URL}/tasks`;
-
+//add cors headers to loadTodos function
 export const loadTodos = () => {
-  return fetch(baseUrl)
-    .then(response => response.json());
-    // .then(tasks => tasks);
-}
+  return fetch(baseUrl).then((response) => response.json());
+    // .then(todos => todos);
+  }
 
 export const getTodo = (id) => {
-  return fetch(`${baseUrl}/${id}`)
-    .then(response => response.json());
+  return fetch(`${baseUrl}/${id}`).then((response) => response.json());
 }
 
-export const createTodo = (task) => {
+export const createTodo = (todo) => {
   return fetch(baseUrl, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({
-        title: task.title,
-        completed: task.completed
-    })
+        title: todo.title,
+        completed: todo.completed
+    }),
   }).then(response => response.json());
-}
+};
 
-export const updateTodo = (task) => {
-  return fetch(`${baseUrl}/${task.id}`, {
+export const updateTodo = (todo) => {
+  return fetch(`${baseUrl}/${todo.id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-        id: task.id,
-        title: task.title,
-        completed: task.completed
-    })
+        id: todo.id,
+        title: todo.title,
+        completed: todo.completed
+    }),
   }).then(response => response.json());
-}
+};
 
 export const deleteTodo = (id) => {
     return fetch(`${baseUrl}/${id}`, {
         method: 'DELETE',
-        headers: {
-        'Content-Type': 'application/json'
-        }
     }).then(response => response.json());
-    }
+}

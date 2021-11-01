@@ -12,4 +12,4 @@
 
 **HOW TO RUN**
 - Execute command `bash init.sh` from main directory
-- In another terminal window execute `init-react.sh`
+- In another terminal window execute `bash init-react.sh`

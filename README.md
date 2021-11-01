@@ -11,5 +11,6 @@
 - NPM 6.14.4
 
 **HOW TO RUN**
+- Setup a new postgresql server "todo-list"
 - Execute command `bash init.sh` from main directory
 - In another terminal window execute `bash init-react.sh`
